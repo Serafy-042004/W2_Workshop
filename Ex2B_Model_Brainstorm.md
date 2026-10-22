@@ -9,6 +9,6 @@
     * Clients --Name, Phone Number, Email, Address
     * Dogs --Dog's name, age, breed, and additional noted related to dog.
     * Staff --Staff's name, Staff's id, phone number, email, pay rate.
-    * Appointments --Date, time, duration.
+    * Appointments --Date, time, duration, The staff handling the appointment, the client, the dog names
 
 
