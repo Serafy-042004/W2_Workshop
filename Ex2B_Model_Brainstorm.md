@@ -16,3 +16,11 @@
 * Dog Table: Holds dog details, linked to their owner (PK: dog_id, FK: client_id).
 * Staff Table: Holds staff details (PK: walker_id).
 * Appointments Table: Connects dogs to the staff member who walk them, and holds appointments detail (PK: appointment_id, FK: dog_id,).
+
+Notes:
+   It all starts from a clients as they are the main unique identifiers that connect to other tables. All the connections between the tables are the same.
+   
+   For the appointment section, one has the client_id in the appointments, however we vouched to remove that from that section. Some name differ, but the attributes are the same.
+
+   Not much difference between the two tables, so approach was the same.
+   
