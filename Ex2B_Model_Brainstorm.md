@@ -11,4 +11,8 @@
     * Staff --Staff's name, Staff's id, phone number, email, pay rate.
     * Appointments --Date, time, duration, The staff handling the appointment, the client, the dog names
 
-
+## Logical Model
+* Client Table: Holds client contact details and the PK is client_id.
+* Dog Table: Holds dog details, linked to their owner (PK: dog_id, FK: client_id).
+* Staff Table: Holds staff details (PK: walker_id).
+* Appointments Table: Connects dogs to the staff member who walk them, and holds appointments detail (PK: appointment_id, FK: dog_id,).
