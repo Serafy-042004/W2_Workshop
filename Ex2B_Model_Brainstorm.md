@@ -9,7 +9,7 @@
     * Clients --Name, Phone Number, Email, Address
     * Dogs --Dog's name, age, breed, and additional noted related to dog.
     * Staff --Staff's name, Staff's id, phone number, email, pay rate.
-    * Appointments --Date, time, duration, The staff handling the appointment, the client, the dog names
+    * Appointments --Date, time, duration, staus, The staff handling the appointment, the client, the dog names
 
 ## Logical Model
 * Client Table: Holds client contact details and the PK is client_id.
